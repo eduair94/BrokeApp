@@ -30,7 +30,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        python -m pytest tests/
+        python -m pytest app/
         
   build:
     name: Build
