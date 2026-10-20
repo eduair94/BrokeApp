@@ -71,7 +71,7 @@ jobs:
 
     - name: Save image tag
       id: image
-      run: echo "tag=$(echo '${{ steps.meta.outputs.tags }}' | head -1)" >> $GITHUB_OUTPUT
+      run: echo "tag=$(echo '${{ steps.meta.outputs.tags }}' | head -1)" >> "$GITHUB_OUTPUT"
 
   validate:
     name: Validate
