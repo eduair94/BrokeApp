@@ -9,7 +9,7 @@ class TestApp(unittest.TestCase):
         response = self.app.get('/health')
         self.assertEqual(response.status_code, 200)
         data = response.get_json()
-        self.assertEqual(data['status'], 'ok')
+        self.assertEqual(data['status'], 'OK')
 
     def test_hello_endpoint(self):
         response = self.app.get('/')
