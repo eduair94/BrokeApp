@@ -10,28 +10,30 @@ Se te ha entregado un repositorio con una aplicación web simple y un pipeline d
 
 ## Problemas a resolver
 
+> **Resuelto.** Causa, corrección y verificación de cada problema: [SOLUCION.md](SOLUCION.md).
+
 El pipeline actual tiene los siguientes componentes, pero ninguno funciona correctamente:
 
 ### 1. Integración Continua
 
-- [  ] Trigger desde rama main
-- [  ] Versión de Python incorrecta
-- [  ] Nombre del archivo de dependencias incorrecto
-- [  ] Directorio de tests incorrecto
+- [x] Trigger desde rama main
+- [x] Versión de Python incorrecta
+- [x] Nombre del archivo de dependencias incorrecto
+- [x] Directorio de tests incorrecto
 
 ### 2. Docker
 
-- [  ] Imagen actualizada de Python
-- [  ] Revisar ruta de copia de requirements.txt
-- [  ] Corregir error al ejecutar la aplicación
+- [x] Imagen actualizada de Python
+- [x] Revisar ruta de copia de requirements.txt
+- [x] Corregir error al ejecutar la aplicación
 
 ### 3. APP / Testing
 
 > **Nota:** el archivo `app/main.py` no debe modificarse. Los demás archivos deben corregirse para que sean consistentes con su implementación.
 
-- [  ] Solucionar comportamiento del test
-- [  ] Nombre del endpoint de check incorrecto
-- [  ] Valor de respuesta incorrecto
+- [x] Solucionar comportamiento del test
+- [x] Nombre del endpoint de check incorrecto
+- [x] Valor de respuesta incorrecto
 
 ## Estructura del repositorio
 
